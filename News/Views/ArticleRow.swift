@@ -8,14 +8,19 @@
 
 import SwiftUI
 
+
+
 struct ArticleRow: View{
+    
+    var article: Article
+    
     var body: some View{
         VStack(alignment: .leading){
-            Text("Man on the moon")
+            Text(article.title)
                 .font(.headline)
                 .lineLimit(3)
                 .padding(EdgeInsets(top: 5, leading: 5, bottom: 0, trailing: 5))
-            Text("by Daily Mirror")
+            Text(article.author)
                 .font(.subheadline)
                 .foregroundColor(.gray)
                 .padding(EdgeInsets(top:0, leading: 5, bottom: 0, trailing: 5 ))
@@ -27,6 +32,6 @@ struct ArticleRow: View{
 
 struct ArticleRow_Previews: PreviewProvider {
     static var previews: some View {
-        ArticleRow()
+        ArticleRow(article: articles[0])
     }
 }

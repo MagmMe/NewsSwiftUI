@@ -19,10 +19,12 @@ let articles = [
     Article(title: "'ENIAC' Becomes World's First Computer", author: "Boston Globe", url: "https://learnappmaking.com/ex/lipsum.html"),
     Article(title: "Apple Introduces The New iPhone", author: "Chicago Tribune", url: "https://learnappmaking.com/ex/lipsum.html")
 ]
-
+ 
 struct ArticleList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(articles, id: \.title){ article in
+            ArticleRow(article: article)
+        }
     }
 }
 
