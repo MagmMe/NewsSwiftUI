@@ -24,6 +24,7 @@ struct ArticleRow: View{
                 .font(.subheadline)
                 .foregroundColor(.gray)
                 .padding(EdgeInsets(top:0, leading: 5, bottom: 0, trailing: 5 ))
+            
         }
     }
 }
