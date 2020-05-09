@@ -22,8 +22,13 @@ let articles = [
  
 struct ArticleList: View {
     var body: some View {
-        List(articles, id: \.title){ article in
-            ArticleRow(article: article)
+        NavigationView{
+            List(articles, id: \.title){ article in
+                NavigationLink(destination: ArticleDetail(article:article)){
+                    ArticleRow(article: article)
+                }
+            }
+        .navigationBarTitle(Text("Fakty Oświęcim"))
         }
     }
 }

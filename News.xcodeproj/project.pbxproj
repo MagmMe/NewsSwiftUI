@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		527E08B42449E21A006B5978 /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E08B32449E21A006B5978 /* ArticleRow.swift */; };
 		52C379F12463CBDC004A00D2 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C379F02463CBDC004A00D2 /* ArticleList.swift */; };
+		52DCEC2B2466627E00AF6386 /* ArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DCEC2A2466627E00AF6386 /* ArticleDetail.swift */; };
 		52E062FF2445F5E400AE0D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E062FE2445F5E400AE0D7E /* AppDelegate.swift */; };
 		52E063012445F5E400AE0D7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E063002445F5E400AE0D7E /* SceneDelegate.swift */; };
 		52E063032445F5E400AE0D7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E063022445F5E400AE0D7E /* ContentView.swift */; };
@@ -16,11 +17,13 @@
 		52E063082445F5E700AE0D7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E063072445F5E700AE0D7E /* Preview Assets.xcassets */; };
 		52E0630B2445F5E700AE0D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E063092445F5E700AE0D7E /* LaunchScreen.storyboard */; };
 		52E06313244616EA00AE0D7E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E06312244616EA00AE0D7E /* Article.swift */; };
+		52FD546B24666A7C0029EDB9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD546A24666A7C0029EDB9 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		527E08B32449E21A006B5978 /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
 		52C379F02463CBDC004A00D2 /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleList.swift; sourceTree = "<group>"; };
+		52DCEC2A2466627E00AF6386 /* ArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetail.swift; sourceTree = "<group>"; };
 		52E062FB2445F5E400AE0D7E /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E062FE2445F5E400AE0D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E063002445F5E400AE0D7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		52E0630A2445F5E700AE0D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E0630C2445F5E700AE0D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E06312244616EA00AE0D7E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		52FD546A24666A7C0029EDB9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				527E08B32449E21A006B5978 /* ArticleRow.swift */,
 				52C379F02463CBDC004A00D2 /* ArticleList.swift */,
+				52DCEC2A2466627E00AF6386 /* ArticleDetail.swift */,
+				52FD546A24666A7C0029EDB9 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,9 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				527E08B42449E21A006B5978 /* ArticleRow.swift in Sources */,
+				52FD546B24666A7C0029EDB9 /* WebView.swift in Sources */,
 				52E06313244616EA00AE0D7E /* Article.swift in Sources */,
 				52C379F12463CBDC004A00D2 /* ArticleList.swift in Sources */,
 				52E062FF2445F5E400AE0D7E /* AppDelegate.swift in Sources */,
+				52DCEC2B2466627E00AF6386 /* ArticleDetail.swift in Sources */,
 				52E063012445F5E400AE0D7E /* SceneDelegate.swift in Sources */,
 				52E063032445F5E400AE0D7E /* ContentView.swift in Sources */,
 			);
