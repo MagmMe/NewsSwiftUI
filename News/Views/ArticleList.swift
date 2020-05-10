@@ -28,7 +28,7 @@ struct ArticleList: View {
                     ArticleRow(article: article)
                 }
             }
-        .navigationBarTitle(Text("Fakty Oświęcim"))
+            .navigationBarTitle(Text("Fakty Oświęcim"))
         }
     }
 }
