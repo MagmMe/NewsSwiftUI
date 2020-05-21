@@ -35,6 +35,11 @@ struct ArticleList: View {
 
 struct ArticleList_Previews: PreviewProvider {
     static var previews: some View {
-        ArticleList()
+        Group{
+              ArticleList()
+                 .environment(\.colorScheme,.dark)
+              ArticleDetail(article: articles[0])
+        }
+      
     }
 }
